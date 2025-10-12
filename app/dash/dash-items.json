@@ -1,0 +1,61 @@
+{
+  "appBar": [
+    {
+      "page": "index"
+    },
+    {
+      "page": "blog"
+    }
+  ],
+  "drawer": [
+    {
+      "page": "index"
+    },
+    {
+      "page": "blog"
+    },
+    {
+      "page": "datasets"
+    },
+    {
+      "page": "research"
+    },
+    {
+      "page": "openSource"
+    },
+    {
+      "page": "contact"
+    }
+  ],
+  "bottomNavigation": [
+    {
+      "page": "blog"
+    },
+    {
+      "page": "index"
+    },
+    {
+      "page": "contact"
+    }
+  ],
+  "footer": [
+    {
+      "page": "index"
+    },
+    {
+      "page": "blog"
+    },
+    {
+      "page": "datasets"
+    },
+    {
+      "page": "research"
+    },
+    {
+      "page": "openSource"
+    },
+    {
+      "page": "contact"
+    }
+  ]
+}

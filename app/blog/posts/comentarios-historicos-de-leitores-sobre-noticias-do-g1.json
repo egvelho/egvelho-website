@@ -1,0 +1,13 @@
+{
+  "publishDate": "2021-10-04T00:01:36.188Z",
+  "title": "Comentários históricos de leitores sobre notícias do G1",
+  "description": "Dataset com 54.634 comentários de leitores sobre notícias publicadas antes de 2010.",
+  "image": "/images/coffee.jpg",
+  "tags": [
+    "Datasets",
+    "G1",
+    "Comentários de notícias",
+    "Notícias"
+  ],
+  "content": "## Descrição do dataset\n\nEste dataset possui comentários de leitores sobre as notícias publicadas no G1 antes de 2010. Desta forma, esse conjunto de dados possui 54.634 comentários distribuídos entre 4.549 notícias, que incluem informações como data de publicação da notícia, texto dos comentários e data de publicação dos comentários. Esse dataset omite intencionalmente os títulos, links, nomes de usuário e outros tipos de dados que podem revelar a identidade de alguém.\n\n## Estrutura de dados\n\nO dataset está no formato JSON, estruturado conforme o exemplo abaixo:\n\n```json\n[\n  {\n    \"createdAt\": \"2006-09-01T03:06:28.000Z\",\n    \"editorial\": \"Tech & Games\",\n    \"comments\": [\n      {\n        \"createdAt\": \"2006-09-19T01:22:00.000Z\",\n        \"text\": \"pena aplicada conforme a realidade brasileira. afinal, o prejuízo lá é bem maior. são dois pesos e duas medidas, isso é óbvio, mas proporcionais.\"\n      }\n    ]\n  },\n  {\n    \"createdAt\": \"2006-09-01T03:06:28.000Z\",\n    \"editorial\": \"Tech & Games\",\n    \"comments\": [\n      {\n        \"createdAt\": \"2006-09-08T18:53:00.000Z\",\n        \"text\": \"Isso é uma máfia!!!!\"\n      },\n      {\n        \"createdAt\": \"2006-09-16T05:01:00.000Z\",\n        \"text\": \"boa\"\n      }\n    ]\n  }\n]\n```\n\n## Solicitar acesso\n\nO acesso a este dataset pode ser solicitado através do [link](https://zenodo.org/record/5557781) na plataforma Zenodo."
+}

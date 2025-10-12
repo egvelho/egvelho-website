@@ -1,0 +1,33 @@
+{
+  "name": "egvelho-website",
+  "version": "1.0.0",
+  "description": "Code for my website.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "start": "next start",
+    "build": "next build",
+    "export": "next export",
+    "serve": "serve out -l 3000",
+    "typecheck": "tsc",
+    "generate-assets": "generate-assets app.json public",
+    "resize-image-assets": "resize-image-assets public/images -size 256"
+  },
+  "author": "egvelho",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "@egvelho/next-meta": "1.16.15",
+    "@egvelho/next-mui": "1.12.8",
+    "@fontsource/vt323": "^4.5.9",
+    "next": "^11.1.0",
+    "react": "^17.0.2",
+    "zod": "^3.11.6"
+  },
+  "devDependencies": {
+    "@types/node": "^16.6.2",
+    "@types/react": "^17.0.19",
+    "react-dom": "^17.0.2",
+    "serve": "^12.0.0",
+    "typescript": "^4.3.5"
+  }
+}

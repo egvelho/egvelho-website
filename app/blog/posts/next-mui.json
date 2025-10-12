@@ -1,0 +1,13 @@
+{
+  "publishDate": "2022-03-04T16:42:23.428Z",
+  "title": "Uma biblioteca de componentes MaterialUI para Next.js",
+  "description": "Componentes desenvolvidos utilizado MaterialUI para integrar com o framework Next.js.",
+  "image": "/images/web-design.jpg",
+  "tags": [
+    "Open-Source",
+    "TypeScript",
+    "React",
+    "Next.js"
+  ],
+  "content": "## Descrição\r\n\r\nEste projeto possui o objetivo de facilitar a integração entre a biblioteca MaterialUI e o framework Next.js. Além disso, estão disponíveis diversos componentes que podem ser utilizados para reduzir o tempo de desenvolvimento de um site. O projeto não é mantido ativamente, e também não possui documentação extensiva. Para utilizar esse código, sugiro realizar um fork ao invés de adicioná-lo diretamente como dependência no _package.json_.\r\n\r\nOs componentes podem ser visualizados no [storybook](https://eduardavelho.github.io/next-mui/), bem como também está disponível o [código-fonte](https://github.com/eduardavelho/next-material-netlify-cms-blog) deste projeto.\r\n\r\n## Código-fonte\r\n\r\nEsse projeto é software livre e de código aberto, estando disponível no GitHub ([@egvelho/next-mui](https://github.com/eduardavelho/next-mui)) sob licença GPL 3.0\\. Também está [disponível na plataforma NPM](https://www.npmjs.com/package/@egvelho/next-mui) para ser utilizado como dependência em projetos Node.js."
+}

@@ -1,0 +1,14 @@
+{
+  "publishDate": "2018-01-03T22:58:55.003Z",
+  "title": "Postagens de um fórum anônimo brasileiro",
+  "description": "158.280 publicações de um imageboard brasileiro.",
+  "tags": [
+    "Datasets",
+    "Anonimato",
+    "Imageboards",
+    "Discurso de ódio",
+    "Conteúdo tóxico"
+  ],
+  "content": "## Descrição do dataset\n\nEste dataset contém texto com conteúdo tóxico e discurso de ódio.\n\nUm dataset de linhas de discussão publicadas em um imageboard anônimo brasileiro, um fórum de discussão similar ao 4chan. Esse dataset inclui 158.280 postagens de usuários distribuídas entre 4.539 tópicos, que foram publicados entre 18 de dezembro 2016 e 19 de janeiro 2017. Os dados foram coletados por meio de um web scraper desenvolvido, que reuniu conteúdo textual e data de publicação das postagens. As imagens não foram coletadas devido a possibilidade de conteúdo ilegal. Os dados foram utilizados no artigo \"A manifestação da masculinidade tóxica em um fórum de internet anônimo brasileiro\".\n\n## Estrutura de dados\n\nO dataset está no formato JSON, estruturado conforme o exemplo abaixo:\n\n```json\n[\n  {\n    \"createdAt\": \"2016-12-18T03:31:25.000Z\",\n    \"text\": \"A primeira resposta desse parênquima paliçádico deverá ser a mais quotado da história.\",\n    \"answers\": [\n      {\n        \"createdAt\": \"2016-12-18T03:31:43.000Z\",\n        \"text\": \"Não.\"\n      },\n      {\n        \"createdAt\": \"2016-12-18T03:32:30.000Z\",\n        \"text\": \"Não.\"\n      },\n      {\n        \"createdAt\": \"2016-12-18T03:32:44.000Z\",\n        \"text\": \">>19678283\"\n      },\n    ]\n  },\n  {\n    \"createdAt\": \"2016-12-19T02:52:28.000Z\",\n    \"text\": \"WEBM/MP4 THREAD!\",\n    \"answers\": [\n      {\n        \"createdAt\": \"2016-12-19T03:08:26.000Z\",\n        \"text\": \">>19690400\\nPerdi!\"\n      },\n      {\n        \"createdAt\": \"2016-12-19T03:08:29.000Z\",\n        \"text\": \">>19690293\\nAi meu Deus.\"\n      },\n      {\n        \"createdAt\": \"2016-12-19T03:09:25.000Z\",\n        \"text\": \">>19690421\"\n      }\n    ]\n  }\n]\n```\n\n## Solicitar acesso\n\nO acesso a este dataset pode ser solicitado através do [link](https://zenodo.org/record/5557655) na plataforma Zenodo.",
+  "image": "/images/anonymous.jpg"
+}

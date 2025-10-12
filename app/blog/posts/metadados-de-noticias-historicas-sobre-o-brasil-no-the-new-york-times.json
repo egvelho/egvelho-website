@@ -1,0 +1,13 @@
+{
+  "publishDate": "2021-10-03T23:39:21.118Z",
+  "content": "## Descrição do dataset\n\nEste dataset contém metadados como data de publicação, título, resumo e palavras-chave de todos os artigos sobre o Brasil no The New York Times. Desta forma, esse conjunto de dados possui informações sobre 79.599 notícias, desde 1851 até 2021.\n\n## Estrutura de dados\n\nO dataset está no formato JSON, estruturado conforme o exemplo abaixo:\n\n```json\n[\n  {\n    \"createdAt\": \"1851-10-06T05:00:00+0000\",\n    \"title\": \"Our Commerce with Brazil.\",\n    \"abstract\": \"Trade between U.S. and\",\n    \"keywords\": [\n      \"Brazil\"\n    ],\n    \"printPage\": \"2\"\n  },\n  {\n    \"createdAt\": \"1851-12-06T05:00:00+0000\",\n    \"title\": \"LATEST INTELLIGENCE; By Telegraph to the New-York Times. The Southern Mall--Health of Mr. Clay-Later from Rio Janeiro and Brazil.\",\n    \"abstract\": \"The Southern mail, as late as due, has arrived. The papers contain nothing of interest. The Washington Telegraph says that Mr. Clay continues quite ill, and without improvement.  \",\n    \"keywords\": [],\n    \"printPage\": \"4\"\n  },\n  {\n    \"createdAt\": \"1851-10-13T05:00:00+0000\",\n    \"title\": \"The Captain General of Cuba.\",\n    \"abstract\": \"Don JOSE DE LA CONCHA, the Captain General whose administration has fallen in these troubles times is by birth a Brazillas, the son of a General who espoused the patriotic cause in Brazil, and who was killed in the course of the struggle. There are three or four brothers CONCHA, I believe, one of whom has acquired great power and influence is Spain, and who has of course raised his family with himself.  \",\n    \"keywords\": [],\n    \"printPage\": \"4\"\n  }\n]\n```\n\n## Solicitar acesso\n\nO acesso a este dataset pode ser solicitado através do [link](https://zenodo.org/record/5557795) na plataforma Zenodo.",
+  "tags": [
+    "Datasets",
+    "The New York Times",
+    "Brasil",
+    "Notícias"
+  ],
+  "image": "/images/new-york-times.jpg",
+  "title": "Metadados de notícias históricas sobre o Brasil no The New York Times",
+  "description": "79.599 notícias sobre o Brasil publicadas no The New York Times (1851-2021)."
+}

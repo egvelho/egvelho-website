@@ -1,0 +1,13 @@
+{
+  "publishDate": "2021-03-03T23:51:26.154Z",
+  "title": "Comentários dos leitores em notícias do G1",
+  "description": "Dataset com 1.059.672 comentários de leitores em notícias publicadas em 2020 pelo G1.",
+  "image": "/images/comments.jpg",
+  "tags": [
+    "Datasets",
+    "G1",
+    "Comentários de notícias",
+    "Notícias"
+  ],
+  "content": "## Descrição do dataset\n\nEste dataset contém dados de comentários de leitores sobre as notícias publicadas no G1, enviadas entre 28 de março de 2020 e 11 de setembro de 2020. Esse conjunto de dados possui 1.059.672 comentários distribuídos entre 18.014 notícias, os quais incluem data de publicação da notícia, entidades citadas, textos dos comentários, quantidade de curtidas e data de publicação. Esse dataset omite intencionalmente os títulos, links, nomes de usuário e quaisquer outros dados que podem revelar a identidade de alguém.\n\nOs dados foram utilizados no trabalho \"O que os textos dizem sobre Jair Bolsonaro? Desenvolvimento de uma rede de coincidência lexical dos comentários de um portal de notícias\", publicado no \"XIII Simpósio Nacional da ABCiber\".\n\n## Estrutura de dados\n\nO dataset está no formato JSON, estruturado conforme o exemplo abaixo:\n\n```json\n[\n  {\n    \"createdAt\": \"2020-03-29T23:05:56.524Z\",\n    \"editorial\": \"Rio de Janeiro\",\n    \"entities\": [\n      \"Crivella\",\n      \"Rio de Janeiro\"\n    ],\n    \"comments\": [\n      {\n        \"createdAt\": \"2020-03-30T03:45:05.620Z\",\n        \"text\": \"aonde estão internados?\",\n        \"likes\": 0,\n        \"replies\": []\n      }\n    ]\n  },\n  {\n    \"createdAt\": \"2020-03-29T12:31:33.385Z\",\n    \"editorial\": \"Bem Estar\",\n    \"entities\": [],\n    \"comments\": [\n      {\n        \"createdAt\": \"2020-03-29T20:24:28.984Z\",\n        \"text\": \"Não sou contra e nem a favor de emissora alguma...os que fala mau dessa em questão. Se falam é por que estão acompanhando as informações postadas por ela... omo explicar isso?\",\n        \"likes\": 1,\n        \"replies\": []\n      },\n      {\n        \"createdAt\": \"2020-03-29T20:01:46.128Z\",\n        \"text\": \"OMS e nada dá na mesma. Sem plano de ação, sem ação sem orientação, nada. Virou só um órgão papagaio. Repete o que ouve e nada mais.\",\n        \"likes\": 0,\n        \"replies\": []\n      }\n    ]\n  }\n]\n```\n\n## Solicitar acesso\n\nO acesso a este dataset pode ser solicitado através do [link](https://zenodo.org/record/5557762) na plataforma Zenodo."
+}

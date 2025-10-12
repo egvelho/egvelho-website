@@ -1,0 +1,25 @@
+import { slugify } from "@egvelho/next-meta/utils/slugify";
+import * as collectionUtils from "@egvelho/next-meta/cms/collection-utils";
+import { pages } from "app/url";
+import paths from "app/cms/paths.json";
+import type { BlogPost } from "app/cms/blog-post";
+
+export {
+  default,
+  getStaticProps,
+  changeFrequency,
+  getLastModificationDate,
+  priority,
+} from "../index";
+
+export const getStaticPaths = pages.blogTag.getStaticPaths(async () => {
+  const postsPath = await collectionUtils.useCollectionFolder(paths.posts, {
+    createFolderIfNotExists: true,
+  });
+  const posts = await collectionUtils.getCollectionFolder<BlogPost>(postsPath);
+  const tags = [...new Set(posts.map(({ data: { tags } }) => tags).flat())];
+
+  return tags.map((tag) => ({ tag: slugify(tag) }));
+});
+
+export const disallow = pages.blogTag.disallow(true);

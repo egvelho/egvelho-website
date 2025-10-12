@@ -1,0 +1,13 @@
+{
+  "publishDate": "2022-03-03T23:13:24.496Z",
+  "title": "Publicações de um grupo de ódio brasileiro no Facebook",
+  "content": "## Descrição do dataset\n\nEste dataset contém texto com conteúdo tóxico e discurso de ódio.\n\nUm dataset de publicações de um grupo brasileiro do Facebook com aspectos culturais similares aos do 4chan. Esse conjunto de dados inclui 129.662 postagens de usuários distribuídas entre 5.770 tópicos, que foram publicados entre 18 de dezembro 2016 e 19 de janeiro 2017. Os dados foram coletados por meio da API do Facebook, que reuniu conteúdo textual e data de publicação das postagens.\n\nOs dados foram utilizados no artigo \"A manifestação da masculinidade tóxica em um fórum de internet anônimo brasileiro\".\n\n## Estrutura de dados\n\nO dataset está no formato JSON, estruturado conforme o exemplo abaixo:\n\n```json\n[\n  {\n    \"createdAt\": \"2016-10-11T12:01:54.000Z\",\n    \"text\": \"Oi, fulano teu nome né? Desculpa chegar assim do nada\",\n    \"answers\": [\n      {\n        \"createdAt\": \"2016-10-11T12:02:28.000Z\",\n        \"text\": \"Tudo bem\"\n      },\n      {\n        \"createdAt\": \"2016-10-11T12:03:08.000Z\",\n        \"text\": \"É que tu tava ai tão quietinho\"\n      },\n      {\n        \"createdAt\": \"2016-10-11T12:04:12.000Z\",\n        \"text\": \"Vc não é muito amigo do pessoal aqui né?\"\n      }\n    ]\n  },\n  {\n    \"createdAt\": \"2016-12-02T02:25:44.000Z\",\n    \"text\": \"Algum anão ai joga Fifa 17 no pc?\",\n    \"answers\": [\n      {\n        \"createdAt\": \"2016-12-02T02:26:41.000Z\",\n        \"text\": \"eu anão\"\n      },\n      {\n        \"createdAt\": \"2016-12-02T02:27:58.000Z\",\n        \"text\": \"Joga\"\n      }\n    ]\n  }\n]\n```\n\n## Solicitar acesso\n\nO acesso a este dataset pode ser solicitado através do [link](https://zenodo.org/record/5557668) na plataforma Zenodo.",
+  "tags": [
+    "Datasets",
+    "Facebook",
+    "Discurso de ódio",
+    "Conteúdo tóxico"
+  ],
+  "description": "129.662 publicações de um grupo brasileiro do Facebook com aspectos culturais similares aos do 4chan.",
+  "image": "/images/facebook.jpg"
+}
