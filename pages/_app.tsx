@@ -49,6 +49,13 @@ function NestedLayout({ children }: { children: ReactNode }) {
       >
         {children}
       </Dash>
+      <style jsx global>{`
+        #__next {
+          max-width: 1600px;
+          margin: auto;
+          box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.4);
+        }
+      `}</style>
     </>
   );
 }
