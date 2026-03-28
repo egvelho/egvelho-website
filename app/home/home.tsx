@@ -35,6 +35,19 @@ export const Home = pages.index.page(({ blogOverviewSection }) => {
           bannerLink={blogOverviewSection.list[0].href ?? ""}
         />
       ))}
+      <style jsx global>{`
+        #contato .MuiListItem-root {
+          gap: 8px;
+        }
+
+        #contato .MuiAvatar-circular {
+          width: 96px;
+          height: 96px;
+        }
+        #contato .MuiListItemText-root {
+          align-self: center;
+        }
+      `}</style>
     </>
   );
 });

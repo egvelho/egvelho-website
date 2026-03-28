@@ -17,7 +17,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "@egvelho/next-meta": "1.16.15",
-    "@egvelho/next-mui": "1.12.8",
+    "@egvelho/next-mui": "1.12.9",
     "@fontsource/vt323": "^4.5.9",
     "next": "^11.1.0",
     "react": "^17.0.2",
