@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-import { loadNetlifyIdentity } from "app/cms/load-netlify-identity";
 import { Meta } from "app/meta";
 import { links, pages } from "app/url";
 import personalInfoData from "app/social-info/personal-info-data.json";
@@ -20,10 +18,6 @@ const itemsToDisplay = itemsData.items.map(({ item }, index) => {
 });
 
 export const Home = pages.index.page(({ blogOverviewSection }) => {
-  useEffect(() => {
-    loadNetlifyIdentity();
-  }, []);
-
   return (
     <>
       <Meta
