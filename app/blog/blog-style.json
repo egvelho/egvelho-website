@@ -1,5 +1,5 @@
 {
   "color": "",
-  "backgroundColor": "",
+  "backgroundColor": "linear-gradient(to right, #d65a92 0%, #5a54d6 100%);",
   "backgroundImage": ""
 }
