@@ -10,6 +10,7 @@ import { Meta } from "app/meta";
 import colors from "app/colors.json";
 import appConfig from "app.json";
 import personalInfoData from "app/social-info/personal-info-data.json";
+import blogStyle from "./blog-style.json";
 
 const texts = {
   socialAnchorTitle: "Compartilhar em",
@@ -37,11 +38,15 @@ export const Post = pages.post.page(
     const isLaptop = useIsLaptop();
     const isDefaultAuthor = !authorName && !authorDescription && !authorPicture;
 
-    const background = backgroundImage
-      ? `url(${backgroundImage})`
-      : backgroundColor || appConfig.secondaryColor;
+    const backgroundImageProp = backgroundImage || blogStyle.backgroundImage;
+    const backgroundColorProp =
+      backgroundColor || blogStyle.backgroundColor || appConfig.secondaryColor;
 
-    const darkIcons = isColorDark(background) ? undefined : true;
+    const background = backgroundImageProp
+      ? `url(${backgroundImageProp})`
+      : backgroundColorProp;
+
+    const darkIcons = isColorDark(appConfig.secondaryColor) ? undefined : true;
     const lightIcons = darkIcons ? undefined : true;
 
     const publishDateTime =
@@ -66,7 +71,7 @@ export const Post = pages.post.page(
           darkIcons={darkIcons}
           lightIcons={lightIcons}
           title={title}
-          titleColor={titleColor}
+          titleColor={titleColor || blogStyle.color}
           description={description}
           pageBackground={colors.white}
           background={background}
@@ -105,5 +110,5 @@ export const Post = pages.post.page(
         </PostPage>
       </>
     );
-  }
+  },
 );
