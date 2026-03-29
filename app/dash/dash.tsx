@@ -20,7 +20,7 @@ const texts = {
   drawerButtonAriaLabel: "Abrir menu de navegação",
   drawerItemsAriaLabel: "Links do menu de navegação",
   footerItemsAriaLabel: "Links do rodapé",
-  footerSocialIconsText: "Contatos e plataformas digitais",
+  footerSocialIconsText: "Contato e redes sociais",
   loginLabel: "Entrar",
   createAccountLabel: "Criar conta",
   logoutLabel: "Sair",
@@ -34,7 +34,7 @@ const appBarItems = mapFilterItemsToLinks(dashItems.appBar).map(
     key,
     href: item.href as string,
     label: item.longLabel,
-  })
+  }),
 );
 
 const footerItems = mapFilterItemsToLinks(dashItems.footer).map(
@@ -42,11 +42,11 @@ const footerItems = mapFilterItemsToLinks(dashItems.footer).map(
     key,
     href: item.href as string,
     label: item.longLabel,
-  })
+  }),
 );
 
 const bottomNavigationItems = mapFilterItemsToLinks(
-  dashItems.bottomNavigation
+  dashItems.bottomNavigation,
 ).map((item, key) => ({
   key,
   href: item.href as string,
@@ -60,7 +60,7 @@ const drawerItems = mapFilterItemsToLinks(dashItems.drawer).map(
     href: item.href as string,
     label: item.longLabel,
     Icon: item.Icon,
-  })
+  }),
 );
 
 const appBarActions = [
