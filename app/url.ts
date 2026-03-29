@@ -32,30 +32,30 @@ export const links = {
     "/postagens",
     icons.RssFeed,
     "Postagens",
-    "Acessar postagens"
+    "Acessar postagens",
   ),
   blogTag: link<{}, { tag: string }, "withQuery">(
     ({ tag }) => `/postagens/tag/${slugify(tag)}`,
     icons.RssFeed,
-    "Tag"
+    "Tag",
   ),
   datasets: link(
     "/postagens/tag/datasets",
     icons.CloudDownload,
     "Datasets",
-    "Datasets publicados"
+    "Datasets publicados",
   ),
   research: link(
     "/postagens/tag/pesquisa",
     icons.Description,
     "Pesquisa",
-    "Pesquisa científica"
+    "Pesquisa científica",
   ),
   openSource: link(
     "/postagens/tag/open-source",
     icons.Code,
     "Open-source",
-    "Projetos open-source"
+    "Projetos open-source",
   ),
   post: link<
     BlogPost &
@@ -68,20 +68,20 @@ export const links = {
     ({ slug }) => `/postagens/${slug}`,
     icons.Comment,
     "Postagem",
-    "Ver postagem"
+    "Ver postagem",
   ),
-  contact: link("/#contato", icons.Email, "Contato", "Entrar em contato"),
+  contact: link("/#contato", icons.PersonAddAlt1, "Contato", "Redes sociais"),
   cms: link("/cms", icons.SupervisedUserCircle, "CMS"),
 };
 
 export const endpoints = {
   getPosts: endpoint<{ page: string }, Data<BlogPost>[]>(
     "GET",
-    "/static-api/posts/[page].json"
+    "/static-api/posts/[page].json",
   ),
   getPostsForTag: endpoint<{ tag: string }, Data<BlogPost>[]>(
     "GET",
-    "/static-api/posts-by-tag/[tag].json"
+    "/static-api/posts-by-tag/[tag].json",
   ),
 };
 
