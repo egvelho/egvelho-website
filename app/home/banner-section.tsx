@@ -48,7 +48,7 @@ export function BannerSection({
         }
       />
       <style jsx global>{`
-        #banner h1 {
+        #contato h1 {
           text-transform: lowercase;
           font-family: "VT323";
           font-size: ${isPhone ? "2.7rem" : "3.3rem"};
