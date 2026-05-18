@@ -7,7 +7,7 @@ import colors from "app/colors.json";
 import bannerData from "./banner-data.json";
 
 const texts = {
-  bannerTitle: "Em destaque",
+  bannerTitle: "Mais recente",
   bannerButtonLabel: "Acessar postagem",
 };
 
