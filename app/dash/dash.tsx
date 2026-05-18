@@ -20,7 +20,7 @@ const texts = {
   drawerButtonAriaLabel: "Abrir menu de navegação",
   drawerItemsAriaLabel: "Links do menu de navegação",
   footerItemsAriaLabel: "Links do rodapé",
-  footerSocialIconsText: "Informações e contatos",
+  footerSocialIconsText: "Contatos e currículo",
   loginLabel: "Entrar",
   createAccountLabel: "Criar conta",
   logoutLabel: "Sair",
@@ -67,7 +67,7 @@ const appBarActions = [
   {
     key: "contact-action",
     href: links.contact.href,
-    label: links.contact.label,
+    label: links.contact.longLabel,
   },
 ];
 

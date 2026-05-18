@@ -70,7 +70,7 @@ export const links = {
     "Postagem",
     "Ver postagem",
   ),
-  contact: link("/#contato", icons.Email, "Contato"),
+  contact: link("/#contato", icons.Email, "Contatos", "Contatos e currículo"),
   cms: link("/cms", icons.SupervisedUserCircle, "CMS"),
 };
 
